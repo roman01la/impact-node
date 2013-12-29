@@ -1,0 +1,31 @@
+{
+  "name": "impact-node",
+  "version": "0.0.0",
+  "description": "Node.js-based development environment for ImpactJS, including Impact++",
+  "main": "server.js",
+  "scripts": {
+    "merge": "merge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roman01la/impact-node.git"
+  },
+  "keywords": [
+    "impactjs",
+    "impactplusplus"
+  ],
+  "author": "Roman Liutikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roman01la/impact-node/issues"
+  },
+  "homepage": "https://github.com/roman01la/impact-node",
+  "dependencies": {
+    "async": "~0.2.9",
+    "glob": "~3.2.7",
+    "express": "~3.4.7",
+    "impactplusplus": "0.0.0",
+    "fs-extra": "~0.8.1",
+    "wrench": "~1.5.4"
+  }
+}
