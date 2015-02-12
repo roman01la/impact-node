@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/impact-node.svg)](http://badge.fury.io/js/impact-node)
+
 impact-node
 ===========
 
