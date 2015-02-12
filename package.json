@@ -1,6 +1,6 @@
 {
   "name": "impact-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js development environment for ImpactJS",
   "bin": {
     "impact-node": "./bin/impact-node"
