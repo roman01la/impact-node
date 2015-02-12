@@ -1,14 +1,36 @@
 impact-node
 ===========
 
-This package includes Node.js server for ImpactJS backend, as well as [Impact++](https://github.com/roman01la/impactplusplus) npm package and merging util to start things faster.
+This package includes Node.js server for ImpactJS backend.
 
-Clone this repo:
+## Installation
 
-`git clone git@github.com:roman01la/impact-node.git`
+`npm install -g impact-node`
 
-Put your `impact` folder into `impact-node` directory and run:
+## Usage
 
-`node merge && npm start`
+### Initialize project
 
-The first command will merge ImpactJS files with Impact++ and put everything into `public` folder, and the second one will start the server. You'll need to merge files just once.
+`impact-node init /absolute/path/to/impact/dir`
+
+This will copy ImpactJS core into current directory and initialize project, thus you can keep ImpactJS somewhere on your disk.
+
+### Run development server
+
+`impact-node serve`
+
+This will run the server at [http://localhost:3000/](localhost:3000).
+
+- Game view: [http://localhost:3000/](localhost:3000/)
+- Weltmeister level editor: [http://localhost:3000/editor/](localhost:3000/editor/)
+
+You can run server on different port.
+
+`impact-node serve -p 9000`
+
+### Build
+
+`impact-node build`
+
+This will compress code into a single file ready for production.
+Outputs `build/game.js`.

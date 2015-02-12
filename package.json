@@ -1,18 +1,19 @@
 {
   "name": "impact-node",
-  "version": "0.0.0",
-  "description": "Node.js-based development environment for ImpactJS, including Impact++",
-  "main": "server.js",
-  "scripts": {
-    "merge": "merge.js"
+  "version": "1.0.0",
+  "description": "Node.js development environment for ImpactJS",
+  "bin": {
+    "impact-node": "./bin/impact-node"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/roman01la/impact-node.git"
   },
   "keywords": [
+    "impact",
     "impactjs",
-    "impactplusplus"
+    "weltmeister",
+    "gamedev"
   ],
   "author": "Roman Liutikov",
   "license": "MIT",
@@ -21,11 +22,14 @@
   },
   "homepage": "https://github.com/roman01la/impact-node",
   "dependencies": {
-    "async": "~0.2.9",
-    "glob": "~3.2.7",
-    "express": "~3.4.7",
-    "impactplusplus": "0.0.0",
-    "fs-extra": "~0.8.1",
-    "wrench": "~1.5.4"
-  }
+    "async": "^0.2.10",
+    "body-parser": "^1.11.0",
+    "colors": "^1.0.3",
+    "express": "^3.4.8",
+    "fs-extra": "^0.8.1",
+    "glob": "^3.2.11",
+    "uglify-js": "^2.4.16",
+    "wrench": "^1.5.8"
+  },
+  "preferGlobal": "true"
 }
