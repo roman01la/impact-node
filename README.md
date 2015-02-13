@@ -30,6 +30,10 @@ You can run server on different port.
 
 `impact-node serve -p 9000`
 
+And in watch mode. Game view will be updated when project's files changed.
+
+`impact-node serve -watch`
+
 ### Build
 
 `impact-node build`
