@@ -5,6 +5,8 @@ impact-node
 
 This package includes Node.js server for ImpactJS backend.
 
+![impact-node logo composed of Node.js and Impact logos](impact-node_logo.png)
+
 ## Installation
 
 `npm install -g impact-node`
