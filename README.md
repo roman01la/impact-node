@@ -3,7 +3,7 @@
 impact-node
 ===========
 
-This package includes Node.js server for ImpactJS backend.
+This package includes Node.js CLI for better development with ImpactJS.
 
 ![impact-node logo composed of Node.js and Impact logos](impact-node_logo.png)
 
