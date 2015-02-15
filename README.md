@@ -9,6 +9,8 @@ This package includes Node.js server for ImpactJS backend.
 
 ## Installation
 
+Requires Node.js v0.12
+
 `npm install -g impact-node`
 
 ## Usage
