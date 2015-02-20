@@ -1,15 +1,9 @@
 var args = process.argv,
     task = args[2];
 
+(/create:/).test(task) && require('./lib/create')(args[2].split(':')[1], args[3]);
+
 switch (task) {
-
-
-    case 'init':
-
-        require('./lib/init')(args[3]);
-
-        break;
-
 
     case 'serve':
 
@@ -26,7 +20,7 @@ switch (task) {
         break;
 }
 
-function getVal(args, key) {
+function getVal (args, key) {
 
     for (var i = 0, ln = args.length; i < ln; i++) {
 

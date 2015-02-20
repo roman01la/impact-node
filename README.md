@@ -15,11 +15,17 @@ Requires Node.js v0.12
 
 ## Usage
 
-### Initialize project
+### Create project
 
-`impact-node init /absolute/path/to/impact/dir`
+`impact-node create:project {path to impact dir}`
 
-This will copy ImpactJS core into current directory and initialize project, thus you can keep ImpactJS somewhere on your disk.
+This will copy ImpactJS core into current directory and bootstrap a project, thus you can keep ImpactJS somewhere on your disk.
+
+### Create entity
+
+`impact-node create:entity {name}`
+
+This will create a new entity file with basic setup.
 
 ### Run development server
 
