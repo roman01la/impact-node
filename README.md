@@ -27,6 +27,9 @@ This will copy ImpactJS core into current directory and bootstrap a project, thu
 
 This will create a new entity file with basic setup.
 
+***Why no command for creating level?***
+*This is what Weltmeister should be used for.*
+
 ### Run development server
 
 `impact-node serve`
