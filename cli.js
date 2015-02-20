@@ -1,3 +1,5 @@
+var helpers = require('./lib/helpers');
+
 var args = process.argv,
     task = args[2];
 
@@ -8,7 +10,7 @@ switch (task) {
     case 'serve':
 
         require('./lib/server')
-            .run(getVal(args, '-p'), getVal(args, '-watch'));
+            .run(helpers.getVal(args, '-p'), helpers.getVal(args, '-watch'));
 
         break;
 
@@ -18,14 +20,4 @@ switch (task) {
         require('./lib/build')();
 
         break;
-}
-
-function getVal (args, key) {
-
-    for (var i = 0, ln = args.length; i < ln; i++) {
-
-        if (args[i] === key) { return [key, args[i + 1]]; }
-    }
-
-    return [];
 }
