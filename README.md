@@ -53,3 +53,7 @@ And in watch mode. Game view will be updated when project's files changed.
 
 This will compress code into a single file ready for production.
 Outputs `build/game.js`.
+
+## ToDo
+[] Changelog
+[] Tests
