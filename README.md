@@ -9,8 +9,6 @@ This package includes Node.js CLI for better development with ImpactJS.
 
 ## Installation
 
-Requires Node.js v0.12
-
 `npm install -g impact-node`
 
 ## Usage
