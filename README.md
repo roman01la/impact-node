@@ -53,5 +53,5 @@ This will compress code into a single file ready for production.
 Outputs `build/game.js`.
 
 ## ToDo
-[] Changelog
-[] Tests
+- [ ] Changelog
+- [ ] Tests
