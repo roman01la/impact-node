@@ -7,6 +7,8 @@ This package includes Node.js CLI for better development with ImpactJS.
 
 ![impact-node logo composed of Node.js and Impact logos](impact-node_logo.png)
 
+![impact-node workflow animated gif](impact-node_workflow.gif)
+
 ## Installation
 
 `npm install -g impact-node`
