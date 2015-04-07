@@ -8,7 +8,7 @@ var args = process.argv,
 
 var pkg = require('./package.json');
 
-var v = '1.2.3',
+var v = '1.2.5',
     help = '\nUsage:\n\nimpact-node create:project {path to impact dir}\nimpact-node create:entity {name}\nimpact-node serve\nimpact-node serve -p 9000\nimpact-node serve -watch\nimpact-node build',
     insightMsg = '\n==========================================================================\n' +
                 'May ' + pkg.name + ' anonymously report usage statistics to improve the tool over time?' +
