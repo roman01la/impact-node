@@ -51,8 +51,7 @@ And in watch mode. Game view will be updated when project's files changed.
 
 `impact-node build`
 
-This will compress code into a single file ready for production.
-Outputs `build/game.js`.
+This will compress code into a single file ready for production and put it into `build` including `media` dir with game assets.
 
 ## ToDo
 - [ ] Changelog

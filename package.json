@@ -1,7 +1,7 @@
 {
   "name": "impact-node",
   "description": "Node.js development environment for ImpactJS",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "Roman Liutikov",
   "bin": {
     "impact-node": "./bin/impact-node"
