@@ -1,4 +1,5 @@
-[![npm version](https://badge.fury.io/js/impact-node.svg)](http://badge.fury.io/js/impact-node)
+[![npm](https://img.shields.io/npm/v/impact-node.svg)](https://www.npmjs.com/package/impact-node)
+[![npm](https://img.shields.io/npm/dm/impact-node.svg)](https://www.npmjs.com/package/impact-node)
 
 impact-node
 ===========
