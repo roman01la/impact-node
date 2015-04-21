@@ -1,4 +1,5 @@
 [![npm](https://img.shields.io/npm/v/impact-node.svg)](https://www.npmjs.com/package/impact-node)
+[![Build Status](https://travis-ci.org/roman01la/impact-node.svg?branch=master)](https://travis-ci.org/roman01la/impact-node)
 [![npm](https://img.shields.io/npm/dm/impact-node.svg)](https://www.npmjs.com/package/impact-node)
 
 impact-node
