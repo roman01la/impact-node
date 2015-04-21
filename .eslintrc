@@ -5,5 +5,11 @@
     "rules": {
         "quotes": [2, "single", "avoid-escape"],
         "no-unused-expressions": false
+    },
+    "globals": {
+        "describe": true,
+        "it": true,
+        "beforeEach": true,
+        "afterEach": true
     }
 }

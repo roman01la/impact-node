@@ -6,6 +6,10 @@
   "bin": {
     "impact-node": "./bin/impact-node"
   },
+  "scripts": {
+    "test": "mocha test",
+    "dev": "mocha test -w"
+  },
   "bugs": {
     "url": "https://github.com/roman01la/impact-node/issues"
   },
@@ -34,5 +38,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/roman01la/impact-node.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
   }
 }
