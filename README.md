@@ -46,7 +46,7 @@ You can run server on different port.
 
 And in watch mode. Game view will be updated when project's files changed.
 
-`impact-node serve -watch`
+`impact-node serve --watch`
 
 ### Build
 
