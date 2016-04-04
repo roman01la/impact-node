@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/maintainer%20needed-!-red.svg)
 [![npm](https://img.shields.io/npm/v/impact-node.svg)](https://www.npmjs.com/package/impact-node)
 [![Build Status](https://travis-ci.org/roman01la/impact-node.svg?branch=master)](https://travis-ci.org/roman01la/impact-node)
 [![Coverage Status](https://coveralls.io/repos/roman01la/impact-node/badge.svg?branch=master)](https://coveralls.io/r/roman01la/impact-node?branch=master)
